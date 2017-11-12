@@ -11,8 +11,8 @@ I intend to write a wrapper for this so it can be executed from command line wit
 
 # Quick ansible how to:
 ansible-playbook <options> ./Ansible-DeploySSHKeys.yml
-  -i <host>, == Specify an invintory file or a host followed by a comma
-  -e 'host_key_checking=False' == If you have multiple systems that you havent yet logged into
-  -k == user login password prompt
-  -K == sudo password in case you want to deploy as root and have a sudo password
-  --private-key <keyfile> == If you intend to log into a system with a keyfile (eg. your deploying keys on behalf of another user)
+* -i <host>, == Specify an invintory file or a host followed by a comma
+* -e 'host_key_checking=False' == If you have multiple systems that you havent yet logged into
+* -k == user login password prompt
+* -K == sudo password in case you want to deploy as root and have a sudo password
+* --private-key <keyfile> == If you intend to log into a system with a keyfile (eg. your deploying keys on behalf of another user)
