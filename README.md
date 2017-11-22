@@ -1,4 +1,8 @@
-# Ansible-DeploySSHKeys
+# Ansible-ManagmentScripts
+A collection of Ansible-playbooks for system managment and configuration controll. 
+
+# This repository was renamed to generalize content. The below has not been changed and may not reflect the current nature of this repo.
+
 A very simple ansible playbook to deploy user specified SSH keys straight out of the documentation.
 Refrence Documentation: http://docs.ansible.com/ansible/latest/authorized_key_module.html
 
