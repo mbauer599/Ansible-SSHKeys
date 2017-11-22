@@ -9,4 +9,5 @@
       state: present
       group: sudo
       shell: /bin/bash
-	    update_password: always
+      update_password: always
+      password: {{ password | password_hash('sha512') }}
