@@ -2,3 +2,5 @@
 - hosts: all
   tasks:
   - name: Set default user
+    become: true
+    user:
