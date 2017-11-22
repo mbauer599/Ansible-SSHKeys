@@ -9,3 +9,4 @@
       state: present
       group: sudo
       shell: /bin/bash
+	    update_password: always
