@@ -8,3 +8,4 @@
       comment: "{{ user }}"
       state: present
       group: sudo
+      shell: /bin/bash
