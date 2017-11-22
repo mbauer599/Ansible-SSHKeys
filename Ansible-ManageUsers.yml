@@ -6,8 +6,8 @@
     user:
       name: "{{ user }}"
       comment: "{{ user }}"
-      state: present
-      group: admin
-      shell: /bin/bash
+      state: "{{ state }}"
+      group: "{{ group }}"
+      shell: "{{ shell }}"
       update_password: always
       password: "{{ password | password_hash('sha512') }}"
