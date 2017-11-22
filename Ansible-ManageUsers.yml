@@ -4,3 +4,4 @@
   - name: Set default user
     become: true
     user:
+      name: "{{ user }}"
