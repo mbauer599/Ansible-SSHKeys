@@ -1,13 +1,14 @@
 ---
 - hosts: all
+  remote_user: "{{ user }}"
   tasks:
   - name: Set default user
     become: true
     user:
-      name: "{{ user }}"
-      comment: "{{ user }}"
+      name: "{{ manage_user }}"
+      comment: "{{ manage_user }}"
       state: "{{ state }}"
-      group: "{{ group }}"
+#      groups: "{{ group }}"
       shell: "{{ shell }}"
       update_password: always
       password: "{{ password | password_hash('sha512') }}"

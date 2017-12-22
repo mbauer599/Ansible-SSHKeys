@@ -7,7 +7,7 @@
 # pubkey=  # Path to public key to deploy
 
 # User Managment
-# user=     # User to manage
+# manage_user=     # User to manage
 # password= # User's cleartext password
 # state=    # Account's state.
 # group=    # Group(s) to add user to
