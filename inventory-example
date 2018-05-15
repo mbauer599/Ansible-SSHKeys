@@ -2,7 +2,7 @@
 # Deploying SSH Keys
 # user=    # Remote user to login as
 #   You can change this in the playbook to login if desired
-
+# manage_user= # User to deploy key to
 # Path to the public key to deploy on the local system.
 # pubkey=  # Path to public key to deploy
 
