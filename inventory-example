@@ -1,8 +1,8 @@
 [all:vars]
 # Deploying SSH Keys
-# user=    # Remote user to login as.
-#   You can change this in the playbook to login 
-#   and add the key as seperate users.
+# user=    # Remote user to login as
+#   You can change this in the playbook to login if desired
+
 # Path to the public key to deploy on the local system.
 # pubkey=  # Path to public key to deploy
 
