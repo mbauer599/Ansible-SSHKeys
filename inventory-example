@@ -1,3 +1,6 @@
+[all]
+# Put your systems here
+
 [all:vars]
 # Deploying SSH Keys
 # user=             # Remote user to login as
