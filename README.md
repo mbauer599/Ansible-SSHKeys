@@ -15,4 +15,4 @@ ansible-playbook <options> ./Ansible-DeploySSHKeys.yml
 * -e 'host_key_checking=False' == If you have multiple systems that you havent yet logged into
 * -k == user login password prompt
 * -K == sudo password in case you want to deploy as root and have a sudo password
-* --private-key <keyfile> == If you intend to log into a system with a keyfile (eg. your deploying keys on behalf of another user)
+* --private-key <keyfile> == If you intend to log into a system with a keyfile (eg. your rotating keys)
