@@ -2,7 +2,7 @@
 An Ansible-playbook for deploying or managing SSH keys. 
 
 A very simple ansible playbook to deploy user specified SSH keys straight out of the documentation.
-Refrence Documentation: http://docs.ansible.com/ansible/latest/authorized_key_module.html
+[Refrence Documentation Here.](http://docs.ansible.com/ansible/latest/authorized_key_module.html)
 
 # To Use:
 Just change the taged values in the .yml file and off you go. 
