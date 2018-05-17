@@ -7,7 +7,7 @@ A very simple ansible playbook to deploy user specified SSH keys straight out of
 # To Use:
 Just change the taged values in the .yml file and off you go. 
 
-I intend to write a wrapper for this so it can be executed from command line with the remote user, deploy user, and key location as options for simplicity and quick adding.
+I intend to write a wrapper for this so it can be executed from command line with the remote user, deploy user, and key location as options for simplicity and quick adding, but hey, have to have time and modivation for that xp.
 
 # Quick ansible how to:
 ansible-playbook <options> ./Ansible-DeploySSHKeys.yml
